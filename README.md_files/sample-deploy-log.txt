@@ -1,0 +1,196 @@
+2026-10-01T01:03:27.1960058Z    _____
+2026-10-01T01:03:27.1963974Z   /  _  \ __________ _________   ____
+2026-10-01T01:03:27.1964063Z  /  /_\  \\___   /  |  \_  __ \_/ __ \
+2026-10-01T01:03:27.1964095Z /    |    \/    /|  |  /|  | \/\  ___/
+2026-10-01T01:03:27.1964123Z \____|__  /_____ \____/ |__|    \___  >
+2026-10-01T01:03:27.196416Z         \/      \/                  \/
+2026-10-01T01:03:27.1964221Z A P P   S E R V I C E   O N   L I N U X
+2026-10-01T01:03:27.1964249Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:03:27.1964249Z","message":""}
+2026-10-01T01:03:27.196429Z Documentation     : https://aka.ms/webapp-linux
+2026-10-01T01:03:27.1964323Z Python quickstart : https://aka.ms/python-qs
+2026-10-01T01:03:27.196435Z Python version    : 3.11.15
+2026-10-01T01:03:27.1964378Z Instance name     : lw1sdlwk0000U2
+2026-10-01T01:03:27.1964418Z Instance id       : 93637addbdda8269bd6bde93defd54ea3367725968cfd82ec49dd72706dbec50
+2026-10-01T01:03:27.1964468Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:03:27.1964468Z","message":""}
+2026-10-01T01:03:27.1964496Z App port          : 8000
+2026-10-01T01:03:27.1964523Z Port selected by  : Default for this image
+2026-10-01T01:03:27.1964553Z (Learn more about the PORT appsetting https://aka.ms/webapp-python-settings)
+2026-10-01T01:03:27.1964581Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:03:27.1964581Z","message":""}
+2026-10-01T01:03:27.1964608Z Note: Any data outside '/home' is not persisted
+2026-10-01T01:03:27.1964632Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:03:27.1964632Z","message":""}
+2026-10-01T01:03:27.1964704Z ────────────────────────────────────────────────────────────────
+2026-10-01T01:03:27.1964738Z  Run 'apphelp' for available commands and aliases.
+2026-10-01T01:03:27.1964766Z  Run 'install-nettools' to install networking utilities.
+2026-10-01T01:03:27.1966044Z ────────────────────────────────────────────────────────────────
+2026-10-01T01:03:36.568534Z Starting OpenBSD Secure Shell server: sshd.
+2026-10-01T01:03:36.6388387Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-10-01T01:03:36.784334Z Updating certificates in /etc/ssl/certs...
+2026-10-01T01:04:18.9364626Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-10-01T01:04:18.9469034Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-10-01T01:04:19.7502597Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-10-01T01:04:20.0518421Z 4 added, 0 removed; done.
+2026-10-01T01:04:20.0638139Z Running hooks in /etc/ca-certificates/update.d...
+2026-10-01T01:04:20.0932007Z done.
+2026-10-01T01:04:20.1514543Z CA certificates copied and updated successfully.
+2026-10-01T01:04:20.368574Z Site's appCommandLine: sh ./startup.sh
+2026-10-01T01:04:21.2667983Z Starting periodic command scheduler: cron.
+2026-10-01T01:04:21.2857183Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'sh ./startup.sh'
+2026-10-01T01:04:21.8293804Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-10-01T01:04:21.8352756Z Could not find operation ID in manifest. Generating an operation id...
+2026-10-01T01:04:21.8354422Z Build Operation ID: e79630f1-f38c-4048-a91e-74e61900572f
+2026-10-01T01:04:23.0361728Z Oryx Version: 0.2.20260710.1, Commit: 079b5b6294eb97d462d8f96bfa3243e9b85251da, ReleaseTagName: 20260710.1
+2026-10-01T01:04:23.0949593Z Writing output script to '/opt/startup/startup.sh'
+2026-10-01T01:04:23.2230463Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-10-01T01:04:23.2243895Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-10-01T01:04:23.2734015Z sh: 0: cannot open ./startup.sh: No such file
+2026-10-01T01:04:38.5030256Z    _____
+2026-10-01T01:04:38.5030807Z   /  _  \ __________ _________   ____
+2026-10-01T01:04:38.5030842Z  /  /_\  \\___   /  |  \_  __ \_/ __ \
+2026-10-01T01:04:38.5030868Z /    |    \/    /|  |  /|  | \/\  ___/
+2026-10-01T01:04:38.5030887Z \____|__  /_____ \____/ |__|    \___  >
+2026-10-01T01:04:38.5030908Z         \/      \/                  \/
+2026-10-01T01:04:38.5030927Z A P P   S E R V I C E   O N   L I N U X
+2026-10-01T01:04:38.503104Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:04:38.503104Z","message":""}
+2026-10-01T01:04:38.5031064Z Documentation     : https://aka.ms/webapp-linux
+2026-10-01T01:04:38.5031084Z Python quickstart : https://aka.ms/python-qs
+2026-10-01T01:04:38.5031104Z Python version    : 3.11.15
+2026-10-01T01:04:38.5031124Z Instance name     : lw1sdlwk0000U2
+2026-10-01T01:04:38.5031149Z Instance id       : 93637addbdda8269bd6bde93defd54ea3367725968cfd82ec49dd72706dbec50
+2026-10-01T01:04:38.5031168Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:04:38.5031168Z","message":""}
+2026-10-01T01:04:38.5031186Z App port          : 8000
+2026-10-01T01:04:38.5031272Z Port selected by  : Default for this image
+2026-10-01T01:04:38.5031294Z (Learn more about the PORT appsetting https://aka.ms/webapp-python-settings)
+2026-10-01T01:04:38.503131Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:04:38.503131Z","message":""}
+2026-10-01T01:04:38.5031331Z Note: Any data outside '/home' is not persisted
+2026-10-01T01:04:38.5031348Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:04:38.5031348Z","message":""}
+2026-10-01T01:04:38.5031418Z ────────────────────────────────────────────────────────────────
+2026-10-01T01:04:38.503144Z  Run 'apphelp' for available commands and aliases.
+2026-10-01T01:04:38.5031461Z  Run 'install-nettools' to install networking utilities.
+2026-10-01T01:04:38.5031491Z ────────────────────────────────────────────────────────────────
+2026-10-01T01:04:55.5354075Z Starting OpenBSD Secure Shell server: sshd.
+2026-10-01T01:04:55.574045Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-10-01T01:04:55.6628536Z Updating certificates in /etc/ssl/certs...
+2026-10-01T01:05:31.6613156Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-10-01T01:05:31.6692629Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-10-01T01:05:32.9904727Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-10-01T01:05:33.0987352Z 4 added, 0 removed; done.
+2026-10-01T01:05:33.0992419Z Running hooks in /etc/ca-certificates/update.d...
+2026-10-01T01:05:33.1469954Z done.
+2026-10-01T01:05:33.1950708Z CA certificates copied and updated successfully.
+2026-10-01T01:05:33.4029126Z Site's appCommandLine: sh ./startup.sh
+2026-10-01T01:05:34.1440676Z Starting periodic command scheduler: cron.
+2026-10-01T01:05:34.1468061Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'sh ./startup.sh'
+2026-10-01T01:05:34.7485231Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-10-01T01:05:34.7504951Z Could not find operation ID in manifest. Generating an operation id...
+2026-10-01T01:05:34.7596837Z Build Operation ID: 4ff45026-f227-427c-a188-f98d045e907e
+2026-10-01T01:05:37.0607022Z Oryx Version: 0.2.20260710.1, Commit: 079b5b6294eb97d462d8f96bfa3243e9b85251da, ReleaseTagName: 20260710.1
+2026-10-01T01:05:37.2152357Z Writing output script to '/opt/startup/startup.sh'
+2026-10-01T01:05:37.4253646Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-10-01T01:05:37.4421607Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-10-01T01:05:37.443643Z sh: 0: cannot open ./startup.sh: No such file
+2026-10-01T01:06:50.4488081Z    _____
+2026-10-01T01:06:50.4488692Z   /  _  \ __________ _________   ____
+2026-10-01T01:06:50.4488721Z  /  /_\  \\___   /  |  \_  __ \_/ __ \
+2026-10-01T01:06:50.4488742Z /    |    \/    /|  |  /|  | \/\  ___/
+2026-10-01T01:06:50.4488764Z \____|__  /_____ \____/ |__|    \___  >
+2026-10-01T01:06:50.4488786Z         \/      \/                  \/
+2026-10-01T01:06:50.4488808Z A P P   S E R V I C E   O N   L I N U X
+2026-10-01T01:06:50.4488828Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:06:50.4488828Z","message":""}
+2026-10-01T01:06:50.4488851Z Documentation     : https://aka.ms/webapp-linux
+2026-10-01T01:06:50.4488873Z Python quickstart : https://aka.ms/python-qs
+2026-10-01T01:06:50.4488895Z Python version    : 3.11.15
+2026-10-01T01:06:50.4488917Z Instance name     : lw1sdlwk0000U2
+2026-10-01T01:06:50.4488944Z Instance id       : 93637addbdda8269bd6bde93defd54ea3367725968cfd82ec49dd72706dbec50
+2026-10-01T01:06:50.4488995Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:06:50.4488995Z","message":""}
+2026-10-01T01:06:50.4489017Z App port          : 8000
+2026-10-01T01:06:50.448904Z Port selected by  : Default for this image
+2026-10-01T01:06:50.4489064Z (Learn more about the PORT appsetting https://aka.ms/webapp-python-settings)
+2026-10-01T01:06:50.4489083Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:06:50.4489083Z","message":""}
+2026-10-01T01:06:50.4489106Z Note: Any data outside '/home' is not persisted
+2026-10-01T01:06:50.4489125Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:06:50.4489125Z","message":""}
+2026-10-01T01:06:50.4489167Z ────────────────────────────────────────────────────────────────
+2026-10-01T01:06:50.4489191Z  Run 'apphelp' for available commands and aliases.
+2026-10-01T01:06:50.4489213Z  Run 'install-nettools' to install networking utilities.
+2026-10-01T01:06:50.4489248Z ────────────────────────────────────────────────────────────────
+2026-10-01T01:07:00.502046Z Starting OpenBSD Secure Shell server: sshd.
+2026-10-01T01:07:00.5245184Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-10-01T01:07:00.6804163Z Updating certificates in /etc/ssl/certs...
+2026-10-01T01:08:00.5793258Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-10-01T01:08:00.5899631Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-10-01T01:08:01.419264Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-10-01T01:08:01.5470478Z 4 added, 0 removed; done.
+2026-10-01T01:08:01.5483161Z Running hooks in /etc/ca-certificates/update.d...
+2026-10-01T01:08:01.5846217Z done.
+2026-10-01T01:08:01.6342026Z CA certificates copied and updated successfully.
+2026-10-01T01:08:01.8514242Z Site's appCommandLine: sh ./startup.sh
+2026-10-01T01:08:02.9512757Z Starting periodic command scheduler: cron.
+2026-10-01T01:08:02.9697636Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'sh ./startup.sh'
+2026-10-01T01:08:03.830707Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-10-01T01:08:03.8404832Z Could not find operation ID in manifest. Generating an operation id...
+2026-10-01T01:08:03.8405078Z Build Operation ID: 38cd841c-6989-4327-a048-0a9a2ec5a05e
+2026-10-01T01:08:05.7534436Z Oryx Version: 0.2.20260710.1, Commit: 079b5b6294eb97d462d8f96bfa3243e9b85251da, ReleaseTagName: 20260710.1
+2026-10-01T01:08:05.9264978Z Writing output script to '/opt/startup/startup.sh'
+2026-10-01T01:08:06.5178024Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-10-01T01:08:06.5285489Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-10-01T01:08:06.5644096Z sh: 0: cannot open ./startup.sh: No such file
+2026-10-01T01:09:18.6706358Z    _____
+2026-10-01T01:09:18.6706665Z   /  _  \ __________ _________   ____
+2026-10-01T01:09:18.6706702Z  /  /_\  \\___   /  |  \_  __ \_/ __ \
+2026-10-01T01:09:18.6706724Z /    |    \/    /|  |  /|  | \/\  ___/
+2026-10-01T01:09:18.6706746Z \____|__  /_____ \____/ |__|    \___  >
+2026-10-01T01:09:18.6706768Z         \/      \/                  \/
+2026-10-01T01:09:18.6706797Z A P P   S E R V I C E   O N   L I N U X
+2026-10-01T01:09:18.6706819Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:09:18.6706819Z","message":""}
+2026-10-01T01:09:18.6706842Z Documentation     : https://aka.ms/webapp-linux
+2026-10-01T01:09:18.6706864Z Python quickstart : https://aka.ms/python-qs
+2026-10-01T01:09:18.6706886Z Python version    : 3.11.15
+2026-10-01T01:09:18.6706976Z Instance name     : lw1sdlwk0000U2
+2026-10-01T01:09:18.6707003Z Instance id       : 93637addbdda8269bd6bde93defd54ea3367725968cfd82ec49dd72706dbec50
+2026-10-01T01:09:18.6707022Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:09:18.6707022Z","message":""}
+2026-10-01T01:09:18.6707042Z App port          : 8000
+2026-10-01T01:09:18.6707066Z Port selected by  : Default for this image
+2026-10-01T01:09:18.6707091Z (Learn more about the PORT appsetting https://aka.ms/webapp-python-settings)
+2026-10-01T01:09:18.6707109Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:09:18.6707109Z","message":""}
+2026-10-01T01:09:18.6707131Z Note: Any data outside '/home' is not persisted
+2026-10-01T01:09:18.670715Z {"level":"INFO","machineName":"lw1sdlwk0000U2","containerName":"python-vue-app-2057","resourceId":"","timestamp":"2026-10-01T01:09:18.670715Z","message":""}
+2026-10-01T01:09:18.6707193Z ────────────────────────────────────────────────────────────────
+2026-10-01T01:09:18.6707245Z  Run 'apphelp' for available commands and aliases.
+2026-10-01T01:09:18.6707271Z  Run 'install-nettools' to install networking utilities.
+2026-10-01T01:09:18.6707305Z ────────────────────────────────────────────────────────────────
+2026-10-01T01:09:25.2190254Z Starting OpenBSD Secure Shell server: sshd.
+2026-10-01T01:09:25.24503Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-10-01T01:09:25.2966024Z Updating certificates in /etc/ssl/certs...
+2026-10-01T01:09:45.3599495Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-10-01T01:09:45.3613138Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-10-01T01:09:45.7395665Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-10-01T01:09:45.8174778Z 4 added, 0 removed; done.
+2026-10-01T01:09:45.8190897Z Running hooks in /etc/ca-certificates/update.d...
+2026-10-01T01:09:45.8385022Z done.
+2026-10-01T01:09:45.8751905Z CA certificates copied and updated successfully.
+2026-10-01T01:09:46.0388219Z Site's appCommandLine: sh ./startup.sh
+2026-10-01T01:09:46.6447346Z Starting periodic command scheduler: cron.
+2026-10-01T01:09:46.6538155Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'sh ./startup.sh'
+2026-10-01T01:09:46.8752551Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2026-10-01T01:09:46.8857232Z Build Operation ID: af4b7b1f2c6b3530
+2026-10-01T01:09:46.9054068Z Oryx Version: 0.2.20260710.1, Commit: 079b5b6294eb97d462d8f96bfa3243e9b85251da, ReleaseTagName: 20260710.1
+2026-10-01T01:09:46.9073377Z Output is compressed. Extracting it...
+2026-10-01T01:09:46.9169283Z Found zstd-compressed tarball.
+2026-10-01T01:09:46.9251872Z Extracting '/home/site/wwwroot/output.tar.zst' to directory '/tmp/8df1f57c1c96f93'...
+2026-10-01T01:09:46.9252121Z Using zstd for decompression of file: /home/site/wwwroot/output.tar.zst
+2026-10-01T01:09:55.3421567Z zstd tar Successfully extracted '/home/site/wwwroot/output.tar.zst' to '/tmp/8df1f57c1c96f93'
+2026-10-01T01:09:55.3429811Z App path is set to '/tmp/8df1f57c1c96f93'
+2026-10-01T01:09:55.8271274Z Writing output script to '/opt/startup/startup.sh'
+2026-10-01T01:10:08.0401329Z Using packages from virtual environment antenv located at /tmp/8df1f57c1c96f93/antenv.
+2026-10-01T01:10:08.0405453Z Updated PYTHONPATH to '/agents/python:/opt/startup/app_logs:/tmp/8df1f57c1c96f93/antenv/lib/python3.11/site-packages'
+2026-10-01T01:10:12.1957521Z [2026-10-01 01:10:12 +0000] [1905] [INFO] Starting gunicorn 22.0.0
+2026-10-01T01:10:12.203199Z [2026-10-01 01:10:12 +0000] [1905] [INFO] Listening at: http://0.0.0.0:8000 (1905)
+2026-10-01T01:10:12.2034288Z [2026-10-01 01:10:12 +0000] [1905] [INFO] Using worker: sync
+2026-10-01T01:10:12.2244079Z [2026-10-01 01:10:12 +0000] [1917] [INFO] Booting worker with pid: 1917
+2026-10-01T01:10:13.4059332Z ContainerStatus: Site startup probe succeeded after 62.6751154 seconds.
+2026-10-01T01:10:13.6435771Z ContainerStatus: State: Starting, Action: WarmUpProbeSucceeded, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/28/2026 02:45:25, LastErrorDetails: Container exited with exit code 3 during startup after 90.1s. Please inspect your container logs for more details., Details: Site startup probe succeeded after 62.6751154 seconds., DetailsLevel: INFO
+2026-10-01T01:10:14.1081683Z ContainerStatus: Site is running with deployment version: 31da219c-2de5-4886-b8cf-3553e8aa967d
+2026-10-01T01:10:14.1216960Z Site started.
+2026-10-01T01:10:14.1231497Z State: Started, Action: None, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/28/2026 02:45:25, LastErrorDetails: Container exited with exit code 3 during startup after 90.1s. Please inspect your container logs for more details., Details: Site started at 09/28/2026 02:47:40 (UTC), DetailsLevel: INFO
+2026-10-01T01:10:14.2350734Z Site is running with patch version PYTHON-3.11.15
+2026-10-01T01:10:15.0000000Z No new trace in the past 1 min(s).
+```

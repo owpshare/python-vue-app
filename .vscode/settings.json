@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bec56cb3-2b74-4a4f-999c-e1d2e9ad9364/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/python-azure-app-2322",
+    "appService.deploySubpath": ".deploy-package"
+}
