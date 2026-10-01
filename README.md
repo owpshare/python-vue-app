@@ -21,6 +21,12 @@ npm i
 npm run build
 ```
 
+Vulnerabilties?
+```
+npm audit
+npm audit fix --force
+```
+
 #### Python
 
 Modify server/app.py:
@@ -34,6 +40,7 @@ cd ~/dev/python-azure-app
 python3 -m venv .venv  
 source .venv/bin/activate  
 pip3 install -r requirements.txt 
+gunicorn --bind=0.0.0.0 --timeout 600 app:app
 ```
 
 ### Test
